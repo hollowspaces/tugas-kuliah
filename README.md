@@ -1,3 +1,3 @@
 # tugasPBO by Sri Puji Astuti
 
-Tugas-tugas mata kuliah Pemrograman Berorientasi Objek
+Semester 3: Tugas-tugas mata kuliah Pemrograman Berorientasi Objek @Universitas Esa Unggul
