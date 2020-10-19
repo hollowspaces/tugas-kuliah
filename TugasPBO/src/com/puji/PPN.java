@@ -1,4 +1,11 @@
+
+/**
+ * Created on Linux Ubuntu 2020. Using Intellij IDEA 2020.2.3
+ * Tugas Pertemuan 4 nomor 2: Program untuk menghitung pajak PPN -> menggunakan fungsi/prosedur
+ **/
+
 package com.puji;
+
 import java.util.Scanner;
 
 public class PPN {
@@ -11,6 +18,7 @@ public class PPN {
     public static void showResult(long input) {
         // memanggil fungsi hitungPPN untuk menghitung PPN dari nilai DPP yang sudah diinput
         long jumlahPPN = hitungPPN(input);
+        
         // menampilkan output
         System.out.println("PPN yang dikenakan yaitu sebesar Rp."+jumlahPPN);
     }
@@ -18,10 +26,12 @@ public class PPN {
     // Fungsi utama
     public static void main(String[] args) {
         System.out.println("Menghitung PPN sebesar 10%");
+        
         // Membuat input nilai
         System.out.println("Masukkan jumlah DPP: ");
         Scanner input = new Scanner(System.in);
         long inputDPP = input.nextLong();
+        
         // Memanggil fungsi showResult untuk menampilkan hasil perhitungan PPN
         showResult(inputDPP);
     }
