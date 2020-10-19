@@ -1,3 +1,9 @@
+
+/**
+ * Created on Linux Ubuntu 2020. Using Intellij IDEA 2020.2.3
+ * Tugas Pertemuan 4 nomor 1: Program untuk menghitung usia -> menggunakan fungsi/prosedur
+ **/
+
 package com.puji;
 
 import java.util.Scanner;
